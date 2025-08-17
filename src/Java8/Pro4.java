@@ -1,0 +1,13 @@
+package Java8;
+
+interface A12{
+	public void add(int a, int b);
+}
+public class Pro4 {
+	public static void main(String[] args) {
+		A12 obj=(a,b)->{
+			System.out.println(a+b);
+		};
+		obj.add(10, 20);
+	}
+}
