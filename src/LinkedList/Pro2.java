@@ -60,5 +60,10 @@ public class Pro2 {
 		while(i.hasNext()) {
 			System.out.println(i.next());
 		}
+		System.out.println("=============");
+		Iterator i2=al2.listIterator();
+		while(i2.hasNext()) {
+			System.out.println(i2.next());
+		}
 	}
 }
