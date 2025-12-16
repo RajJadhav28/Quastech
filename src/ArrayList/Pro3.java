@@ -21,6 +21,10 @@ public class Pro3 {
 		while(it.hasNext()) {//checks wheather ArrayList has next element
 			System.out.println(it.next());//fetches the next element
 		}
+		Iterator itr=al.iterator();
+		while(itr.hasNext()) {
+			System.out.println(itr.next());
+		}
 		ArrayList<String>al2=(ArrayList<String>)al.clone();
 		System.out.println(al2);
 		System.out.println(al.subList(1, 3));//last index is exclusive

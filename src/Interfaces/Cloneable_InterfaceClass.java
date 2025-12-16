@@ -1,6 +1,5 @@
 package Interfaces;
 
-
 class Address implements Cloneable{
 	 private String city;
 	    private String state;
@@ -28,7 +27,7 @@ class Address implements Cloneable{
 		}
 }
 	    class Student implements Cloneable{
-	    	 private String name;
+	    	 	private String name;
 	    	    private int age;
 	    	    private Address address; // Reference type
 				public Student(String name, int age, Address address) {

@@ -39,7 +39,7 @@ public class Pro3 {
 		}
 		s2=s2.intern();
 		System.out.println(s2);//will place s2 in constant pool.
-		int wordcount=s1.length();
-		System.out.println("no. of chars:"+wordcount);
+		int charCount=s1.length();
+		System.out.println("no. of chars:"+charCount);
 	}
 }

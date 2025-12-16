@@ -20,8 +20,8 @@ public class Pro5 extends Base{
 		System.out.println("Calling Paramaterized constructor2.");
 	}
 	public static void main(String[] args) {
-		//Pro5 obj=new Pro5("test");
-		Pro5 obj1=new Pro5();
+		Pro5 obj=new Pro5("test");
+//		Pro5 obj1=new Pro5();
 		
 	}
 }

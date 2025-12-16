@@ -21,7 +21,8 @@ public class Pro2 {
 		//Adding second list elements to the first list at specific position.
 		ArrayList<String>al3=new ArrayList<String>(al2);
 		al.addAll(1,al3);
-		System.out.println("Adding second list elements to the first list at specific position:"+al);
+		System.out.println("Adding second list elements"
+				+ " to the first list at specific position:"+al);
 		//Remove elements
 		al.remove("Ajay");//removing character
 		System.out.println(al);
