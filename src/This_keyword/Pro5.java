@@ -1,5 +1,7 @@
 package This_keyword;
 
+import java.util.Scanner;
+
 class Student3{
 	int rollno;
 	String name, course;
@@ -20,7 +22,17 @@ class Student3{
 }
 public class Pro5 {
 	public static void main(String[] args) {
-		Student3 obj=new Student3(101, "Raj", "Java",10.5f);
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the rollno:");
+		int rollno=sc.nextInt();
+		System.out.println("Enter the name:");
+		String name=sc.next();
+		System.out.println("Enter the course:");
+		String course=sc.next();
+		System.out.println("Enter the fees:");
+		float fees=sc.nextFloat();
+		Student3 obj=new Student3(rollno, name, course, fees);
 		obj.display();
+		sc.close();
 	}
 }
